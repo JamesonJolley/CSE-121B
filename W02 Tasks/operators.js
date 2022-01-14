@@ -59,6 +59,6 @@ function isHit() {
   }
   function reloadShip() {
     // reduce ship health by 1 and increase ammo by 3
-    shipHealth =-1
-    shipAmmo =+3
+    shipHealth -= 1
+    shipAmmo += 3
   }
